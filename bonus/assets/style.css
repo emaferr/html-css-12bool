@@ -1,0 +1,48 @@
+/* Color */
+.yellow{
+    background-color: rgb(255, 242, 4);
+}
+.orange{
+    background-color: #e76430;
+}
+
+.black{
+    background-color: #121212;
+}
+
+.white{
+    background-color: #ececec;
+}
+
+.blue{
+    background-color: #5ad0ff;
+}
+
+.opacity{
+    opacity: 50%;
+}
+/* end Color */
+
+.container{
+    background-color: #07a4e2;
+}
+
+header{
+    background-color: #5ad0ff;
+}
+
+header, footer{
+    height: 150px;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #ececec;
+    padding-top: 50px;
+}
+
+
+.row [class*="col-"]{
+    height: 15px;
+}
+
