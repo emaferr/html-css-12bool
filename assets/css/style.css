@@ -1,0 +1,93 @@
+
+.row [class*="col-"]{
+    background-color: #FFC0CB;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    height: 100%;
+
+}
+
+.row{
+    height: 200px;
+    width: 100%;
+}
+
+.col-1::after{
+    content: "1 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.col-2::after{
+    content: "2 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.col-6::after{
+    content: "6 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.col-8::after{
+    content: "8 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.col-12::after{
+    content: "12 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+} 
+
+/* Nested */
+.nasted{
+    padding: 5px 5px;
+}
+
+.nasted::after{
+    content: "";
+}
+
+.nasted [class*="col-"]{
+    background-color: #F07F80;
+    border: 1px solid #ffffff;
+}
+
+.nasted .col-2::after{
+    content: "Nested 2 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.nasted .col-6::after{
+    content: "Nested 6 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.nasted .col-8::after{
+    content: "Nested 8 col";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+/* end Nested */
