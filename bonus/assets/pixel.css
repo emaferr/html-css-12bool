@@ -11,10 +11,6 @@
     width: 100%;
 }
 
-.row [class*="col-"]{
-    height: 15px;
-}
-
 .row::after{
     content: "";
     display: table;

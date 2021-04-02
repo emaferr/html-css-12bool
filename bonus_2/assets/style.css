@@ -1,0 +1,40 @@
+/* Color */
+.black{
+    background-color: #1b1b1b;
+}
+
+.pink{
+    background-color: #f1c9cf;
+}
+
+.lgreen{
+    background-color: #a3d95b;
+}
+
+.dgreen{
+    background-color: #6c9338;
+}
+
+.lbrown{
+    background-color: #cfc794;
+}
+
+.dbrown{
+    background-color: #584321;
+}
+/* end Color */
+
+header, footer{
+    height: 150px;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #aaaaaa;
+    padding-top: 50px;
+    text-shadow: 5px 5px #023900c3;
+}
+
+.row [class*="col-"]{
+    height: 25px;
+}
