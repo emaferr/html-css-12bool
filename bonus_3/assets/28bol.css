@@ -1,0 +1,146 @@
+/*************************** 
+*Framework 44bool 
+***************************/
+
+/* Rule */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+/* end Rule */
+
+/* Utility */
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    max-width:700px;
+    margin: 0 auto;
+}
+
+[class*="col-"]{
+    float: left;
+}
+/* end Utility */
+
+/* Column */
+.col-1{
+    width: calc((100%/28) * 1);
+}
+
+.col-2{
+    width: calc((100%/28) * 2);
+}
+
+.col-3{
+    width: calc((100%/28) * 3);
+}
+
+.col-4{
+    width: calc((100%/28) * 4);
+}
+
+.col-5{
+    width: calc((100%/28) * 5);
+}
+
+.col-6{
+    width: calc((100%/28) * 6);
+}
+
+.col-7{
+    width: calc((100%/28) * 7);
+}
+
+.col-8{
+    width: calc((100%/28) * 8);
+}
+
+.col-9{
+    width: calc((100%/28) * 9);
+}
+
+.col-10{
+    width: calc((100%/28) * 10);
+}
+
+.col-11{
+    width: calc((100%/28) * 11);
+}
+
+.col-12{
+    width: calc((100%/28) * 12);
+}
+
+.col-13{
+    width: calc((100%/28) * 13);
+}
+
+.col-14{
+    width: 50%;
+}
+
+.col-15{
+    width: calc((100%/28) * 15);
+}
+
+.col-16{
+    width: calc((100%/28) * 16);
+}
+
+.col-17{
+    width: calc((100%/28) * 17);
+}
+
+.col-18{
+    width: calc((100%/28) * 18);
+}
+
+.col-19{
+    width: calc((100%/28) * 19);
+}
+
+.col-20{
+    width: calc((100%/28) * 20);
+}
+
+.col-21{
+    width: calc((100%/28) * 21);
+}
+
+.col-22{
+    width: calc((100%/28) * 22);
+}
+
+.col-23{
+    width: calc((100%/28) * 23);
+}
+
+.col-24{
+    width: calc((100%/28) * 24);
+}
+
+.col-25{
+    width: calc((100%/28) * 25);
+}
+
+.col-26{
+    width: calc((100%/28) * 26);
+}
+
+.col-27{
+    width: calc((100%/28) * 27);
+}
+
+.col-28{
+    width: 100%;
+}
+/* end Column */

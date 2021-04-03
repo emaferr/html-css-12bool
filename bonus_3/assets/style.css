@@ -1,0 +1,36 @@
+/* Color */
+.black{
+    background-color: #111111;
+}
+
+.red{
+    background-color: #cd0c29;
+}
+
+.grey{
+    background-color: #2e2f2d;
+}
+
+.brown{
+    background-color: #584321;
+}
+
+.white{
+    background-color: #ffffff;
+}
+/* end Color */
+
+header, footer{
+    height: 150px;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #757575;
+    padding-top: 50px;
+    text-shadow: 5px 5px #8b0202d1;
+}
+
+.row [class*="col-"]{
+    height: 25px;
+}
